@@ -1,1 +1,6 @@
--- Add your SQL here
+SELECT * FROM EMPLOYEE;
+
+DELETE FROM EMPLOYEE
+WHERE EDUCATION = null
+AND LOCATION = 'Nashville' 
+OR 'Denver';
