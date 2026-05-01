@@ -1,0 +1,9 @@
+--do not change this file
+CREATE TABLE "Employee" (
+	"ID"	INTEGER,
+	"NAME"	TEXT,
+	"SALARY"	INTEGER UNIQUE,
+	"LOCATION"	TEXT,
+	"DATE"	INTEGER,
+	"EDUCATION"	TEXT
+);
